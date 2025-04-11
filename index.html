@@ -8,8 +8,23 @@
 </head>
 <body>
   <h1>Productos</h1>
-  <main class="content-box" style="display: grid; grid-template-columns: auto auto auto auto; grid-template-rows: auto auto auto; ; justify-content: space-evenly;">
 
+  <!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-warning">Categorias</button>
+  <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" id="ulMenu">
+    
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" onclick="getData('');">Todas</a></li>
+  </ul>
+</div><!--btn-group-->
+
+<hr/>
+
+  <main class="content-box" style="display: grid; grid-template-columns: auto auto auto auto; grid-template-rows: auto auto auto; ; justify-content: space-evenly;">
   </main>
   
 
